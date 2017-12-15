@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [agencyTest.AgencyTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="agencyTest.AgencyTest">
+        <methods>
+          <include name="PatientCreate"/>
+          <include name="configAfterMtd"/>
+          <include name="configAfterClass"/>
+          <include name="configBeforeMtd"/>
+          <include name="configBeforClass"/>
+        </methods>
+      </class> <!-- agencyTest.AgencyTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [agencyTest.AgencyTest] -->
